@@ -82,10 +82,10 @@ Successfully installed copy-meraki-network-0.1.0
 
 > Now the script can be run natively from the shell:
 ```
-$ copy-meraki-network --api-key FILTERED-MERAKI_ADMIN_API_KEY --src-net L_770115536280358910 --dst-org 584267 --dst-name "Test_Transfer_Net" --time-zone "America/Chicago" --no-native
-2025-06-26 11:08:44 INFO: Source 'Test_Transfer_Net' (L_770115536280358910)
-2025-06-26 11:08:46 INFO: Created blank network L_770115536280358945 – starting granular sync
-2025-06-26 11:08:47 INFO: Enabled VLANs on destination network L_770115536280358945
+$ copy-meraki-network --api-key FILTERED-MERAKI_ADMIN_API_KEY --src-net L_90000000000000912 --dst-org 123456 --dst-name "Test_Transfer_Net" --time-zone "America/Chicago" --no-native
+2025-06-26 11:08:44 INFO: Source 'Test_Transfer_Net' (L_90000000000000912)
+2025-06-26 11:08:46 INFO: Created blank network L_90000000000000913 – starting granular sync
+2025-06-26 11:08:47 INFO: Enabled VLANs on destination network L_90000000000000913
 2025-06-26 11:08:48 INFO: ✓ VLAN 1 updated
 2025-06-26 11:08:49 INFO: ✓ VLAN 999 created
 2025-06-26 11:08:50 INFO: ✓ VLAN 1000 created
@@ -128,9 +128,9 @@ $ copy-meraki-network --api-key FILTERED-MERAKI_ADMIN_API_KEY --src-net L_770115
 2025-06-26 11:09:21 INFO: ✓ SSID 12 synced
 2025-06-26 11:09:21 INFO: ✓ SSID 13 synced
 2025-06-26 11:09:22 INFO: ✓ SSID 14 synced
-2025-06-26 11:09:23 INFO: Validation report saved to dhcp_validation_report_L_770115536280358945.txt
+2025-06-26 11:09:23 INFO: Validation report saved to dhcp_validation_report_L_90000000000000913.txt
 2025-06-26 11:09:23 INFO: Granular sync complete ✓
-✓ Network cloned to L_770115536280358945
+✓ Network cloned to L_90000000000000913
 ```
 
 ## 👤 Author
