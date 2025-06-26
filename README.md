@@ -5,7 +5,7 @@ June 2025 — including **Addressing & VLANs (with DHCP scopes)** *and* **eve
 per‑SSID sub‑setting** (traffic shaping, firewall rules, Bonjour, etc.).
 
 # copy_meraki_network.pip
-Same as `# copy_meraki_network.py` but a s pip distribution package
+Same as `# copy_meraki_network.py` but as a Pythoin pip package
 
 ## 👤 Author
 Jose Rosa
